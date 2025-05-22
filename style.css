@@ -1,28 +1,49 @@
-<!-- Modal 4 -->
-<div class="modal" id="modal4" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Hotel Pet Shop: Um novo padrão de cuidado animal</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-      </div>
-      <div class="modal-body">
-        <p>O Hotel Pet Shop surge para solucionar problemas comuns como falta de atendimento humanizado, desorganização e ausência de serviços integrados.</p>
-        <ul>
-          <li>✅ Atendimento presencial e online</li>
-          <li>✅ Serviços: banho, tosa, consultas, venda de produtos, leva e traz</li>
-          <li>✅ Transparência: áreas visíveis, câmeras e atendimento com empatia</li>
-          <li>✅ Planos mensais com desconto e fidelidade</li>
-        </ul>
-        <p><strong>Valores:</strong></p>
-        <ul>
-          <li>R$ 140,00 – Banho simples</li>
-          <li>R$ 190,00 – Banho + Tosa Higiênica</li>
-          <li>R$ 250,00 – Banho + Tosa Completa + Extras</li>
-        </ul>
-        <p>🌟 Proposta de valor: oferecer carinho, inovação e responsabilidade, tudo em um só lugar.</p>
-        <img src="img/hotel-pet-shop.png" alt="Hotel Pet Shop" class="img-fluid w-100">
-      </div>
-    </div>
-  </div>
-</div>
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+  --cor-principal: #6E859F;
+  --cor-secundaria: #284260;
+  --cor-destaque: #C92BFC;
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  color: var(--cor-principal);
+  background-color: #f8f9fa;
+}
+
+h1, h2, h5 {
+  color: var(--cor-secundaria);
+  font-weight: 700;
+}
+
+.lead, .btn-link {
+  color: var(--cor-destaque);
+  font-weight: 700;
+}
+
+a, .btn-link:hover {
+  color: var(--cor-principal);
+}
+
+a:hover {
+  color: var(--cor-destaque);
+}
+
+.card {
+  border: 1px solid var(--cor-principal);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: var(--cor-secundaria);
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: var(--cor-destaque);
+}
