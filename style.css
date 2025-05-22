@@ -1,135 +1,28 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hotel Pet Shop</title>
-  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;500;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --cor-principal: #6E859F;
-      --cor-secundaria: #284260;
-      --cor-destaque: #C92BFC;
-    }
-
-    body {
-      font-family: 'Chakra Petch', sans-serif;
-      color: var(--cor-principal);
-      margin: 0;
-      background-color: #f9f9f9;
-    }
-
-    header {
-      background-color: var(--cor-secundaria);
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-
-    h1, h2 {
-      color: var(--cor-secundaria);
-    }
-
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    .problemas, .solucoes, .servicos, .precos {
-      margin-bottom: 2rem;
-    }
-
-    .preco-card {
-      background: #fff;
-      border: 2px solid var(--cor-principal);
-      padding: 1rem;
-      margin: 1rem 0;
-      border-radius: 10px;
-    }
-
-    .btn-link {
-      color: var(--cor-destaque);
-      font-weight: 700;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: var(--cor-destaque);
-    }
-
-    footer {
-      background-color: var(--cor-secundaria);
-      color: white;
-      text-align: center;
-      padding: 1rem;
-    }
-  </style>
-</head>
-<body>
-
-  <header>
-    <h1>Hotel Pet Shop</h1>
-    <p>Carinho, qualidade e cuidado em um só lugar</p>
-  </header>
-
-  <section class="problemas">
-    <h2>Problemas Que Resolvemos</h2>
-    <ul>
-      <li>Falta de atendimento humanizado</li>
-      <li>Ausência de serviços integrados em um só lugar</li>
-      <li>Falta de higiene e desorganização</li>
-    </ul>
-  </section>
-
-  <section class="solucoes">
-    <h2>Nossas Soluções</h2>
-    <ul>
-      <li>Profissionais capacitados e bem treinados</li>
-      <li>Limpeza rigorosa e processos organizados</li>
-      <li>Banho e tosa com transparência e empatia</li>
-    </ul>
-  </section>
-
-  <section class="servicos">
-    <h2>Serviços Oferecidos</h2>
-    <p>Banho, tosa, consultas veterinárias, venda de produtos, e serviço leva e traz. Atendimento via WhatsApp ou aplicativo.</p>
-  </section>
-
-  <section class="precos">
-    <h2>Preços</h2>
-    <div class="preco-card">
-      <strong>Banho Simples:</strong> R$ 140,00
+<!-- Modal 4 -->
+<div class="modal" id="modal4" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Hotel Pet Shop: Um novo padrão de cuidado animal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <p>O Hotel Pet Shop surge para solucionar problemas comuns como falta de atendimento humanizado, desorganização e ausência de serviços integrados.</p>
+        <ul>
+          <li>✅ Atendimento presencial e online</li>
+          <li>✅ Serviços: banho, tosa, consultas, venda de produtos, leva e traz</li>
+          <li>✅ Transparência: áreas visíveis, câmeras e atendimento com empatia</li>
+          <li>✅ Planos mensais com desconto e fidelidade</li>
+        </ul>
+        <p><strong>Valores:</strong></p>
+        <ul>
+          <li>R$ 140,00 – Banho simples</li>
+          <li>R$ 190,00 – Banho + Tosa Higiênica</li>
+          <li>R$ 250,00 – Banho + Tosa Completa + Extras</li>
+        </ul>
+        <p>🌟 Proposta de valor: oferecer carinho, inovação e responsabilidade, tudo em um só lugar.</p>
+        <img src="img/hotel-pet-shop.png" alt="Hotel Pet Shop" class="img-fluid w-100">
+      </div>
     </div>
-    <div class="preco-card">
-      <strong>Banho + Tosa Higiênica:</strong> R$ 190,00
-    </div>
-    <div class="preco-card">
-      <strong>Banho + Tosa Completa + Extras:</strong> R$ 250,00
-    </div>
-  </section>
-
-  <section class="diferenciais">
-    <h2>Diferenciais</h2>
-    <ul>
-      <li>Atendimento humanizado</li>
-      <li>Planos mensais com desconto</li>
-      <li>Programa de fidelidade</li>
-      <li>Parcerias com ONGs</li>
-    </ul>
-  </section>
-
-  <section class="proposta">
-    <h2>Proposta de Valor</h2>
-    <p>
-      Oferecemos uma experiência completa, segura e acolhedora para os pets e seus tutores.
-      Foco em qualidade, carinho, inovação e responsabilidade.
-    </p>
-  </section>
-
-  <footer>
-    <p>Hotel Pet Shop &copy; 2025 — Obrigada pela atenção!</p>
-  </footer>
-
-</body>
-</html>
+  </div>
+</div>
